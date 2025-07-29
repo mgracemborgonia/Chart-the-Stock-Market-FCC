@@ -1,0 +1,26 @@
+{
+  "name": "stock_market",
+  "version": "1.0.0",
+  "description": "Chart The Stock Market - FCC",
+  "main": "stock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgracemborgonia/Chart-the-Stock-Market-FCC.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgracemborgonia/Chart-the-Stock-Market-FCC/issues"
+  },
+  "homepage": "https://github.com/mgracemborgonia/Chart-the-Stock-Market-FCC#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1"
+  }
+}

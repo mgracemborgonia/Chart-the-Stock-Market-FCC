@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
+        <title>Chart the Stock Market FCC</title>
+    </head>
+    <body>
+        <h1>Chart the Stock Market</h1>
+        <p>You must enter up to 3 stock symbols.</p>
+        <div id="form">
+            <input type="text" name="stock" placeholder="Enter stock symbol here" id="inputSymbol" />
+            <button type="button" id="addBtn" onclick="addSymbol()">Add</button>
+            <button type="button" id="removeBtn" onclick="removeSymbol()">Remove</button>
+        </div>
+        <p id="message"></p>
+        <canvas  width="70" height="30" id="stockChart"></canvas>
+        <script src="/main.js"></script>
+    </body>
+</html>
